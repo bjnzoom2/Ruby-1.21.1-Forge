@@ -1,6 +1,7 @@
 package net.bjnzoom2.ruby;
 
 import com.mojang.logging.LogUtils;
+import net.bjnzoom2.ruby.block.ModBlocks;
 import net.bjnzoom2.ruby.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +32,7 @@ public class Ruby {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
