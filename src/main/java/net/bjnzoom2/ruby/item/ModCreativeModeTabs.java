@@ -24,7 +24,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> RUBY_BLOCKS_TAB = CREATIVE_MODE_TABS.register("ruby_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK.get()))
-                    .withTabsAfter(RUBY_ITEMS_TAB.getId())
+                    .withTabsBefore(RUBY_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.ruby.ruby_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.RUBY_BLOCK.get());
