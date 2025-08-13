@@ -54,6 +54,7 @@ public class Ruby {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RAW_RUBY_BLOCK);
         }
     }
 
