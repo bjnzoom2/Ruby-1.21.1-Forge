@@ -3,5 +3,8 @@
   "item.ruby.raw_ruby": "Raw Ruby",
 
   "block.ruby.ruby_block": "Block of Ruby",
-  "block.ruby.raw_ruby_block": "Block of Raw Ruby"
+  "block.ruby.raw_ruby_block": "Block of Raw Ruby",
+
+  "creativetab.ruby.ruby_items": "Ruby Items",
+  "creativetab.ruby.ruby_blocks": "Ruby Blocks"
 }

@@ -2,6 +2,7 @@ package net.bjnzoom2.ruby;
 
 import com.mojang.logging.LogUtils;
 import net.bjnzoom2.ruby.block.ModBlocks;
+import net.bjnzoom2.ruby.item.ModCreativeModeTabs;
 import net.bjnzoom2.ruby.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,8 @@ public class Ruby {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
