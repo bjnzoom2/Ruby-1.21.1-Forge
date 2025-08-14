@@ -34,7 +34,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RUBY_DEEPSLATE_ORE = registerBlock("ruby_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
-                    .strength(4F).requiresCorrectToolForDrops()));
+                    .strength(4F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

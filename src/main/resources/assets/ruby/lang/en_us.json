@@ -5,6 +5,9 @@
   "block.ruby.ruby_block": "Block of Ruby",
   "block.ruby.raw_ruby_block": "Block of Raw Ruby",
 
+  "block.ruby.ruby_ore": "Ruby Ore",
+  "block.ruby.ruby_deepslate_ore": "Ruby Deepslate Ore",
+
   "creativetab.ruby.ruby_items": "Ruby Items",
   "creativetab.ruby.ruby_blocks": "Ruby Blocks"
 }
