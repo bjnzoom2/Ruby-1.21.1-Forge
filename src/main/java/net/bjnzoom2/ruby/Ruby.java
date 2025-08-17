@@ -59,6 +59,10 @@ public class Ruby {
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.RAW_RUBY_BLOCK);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.CHISEL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

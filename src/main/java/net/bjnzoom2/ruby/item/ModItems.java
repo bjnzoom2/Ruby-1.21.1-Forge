@@ -1,6 +1,7 @@
 package net.bjnzoom2.ruby.item;
 
 import net.bjnzoom2.ruby.Ruby;
+import net.bjnzoom2.ruby.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(65)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RAW_RUBY.get());
+                        output.accept(ModItems.CHISEL.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> RUBY_BLOCKS_TAB = CREATIVE_MODE_TABS.register("ruby_blocks_tab",

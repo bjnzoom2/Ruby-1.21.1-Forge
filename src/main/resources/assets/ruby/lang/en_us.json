@@ -2,6 +2,8 @@
   "item.ruby.ruby": "Ruby",
   "item.ruby.raw_ruby": "Raw Ruby",
 
+  "item.ruby.chisel": "Chisel",
+
   "block.ruby.ruby_block": "Block of Ruby",
   "block.ruby.raw_ruby_block": "Block of Raw Ruby",
 
