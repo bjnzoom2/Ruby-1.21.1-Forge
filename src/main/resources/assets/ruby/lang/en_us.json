@@ -11,5 +11,8 @@
   "block.ruby.ruby_deepslate_ore": "Ruby Deepslate Ore",
 
   "creativetab.ruby.ruby_items": "Ruby Items",
-  "creativetab.ruby.ruby_blocks": "Ruby Blocks"
+  "creativetab.ruby.ruby_blocks": "Ruby Blocks",
+
+  "tooltip.ruby.chisel.shift_down": "Chisels blocks into their brick variants",
+  "tooltip.ruby.chisel.shift": "Hold §e[SHIFT]§r for Summary"
 }
